@@ -1,0 +1,48 @@
+*{
+
+    font-size:medium;
+}
+h1{
+    color: rgb(142, 201, 142);
+}
+div{
+    background:pink;
+    width:80em;
+    margin: auto;
+    padding: 200;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(Font/Roboto/Roboto-Medium.ttf);
+}
+h1{
+font-family: Roboto,Verdana, Geneva, Tahoma, sans-serif;
+-moz-animation-name: chgt-couleur;
+-moz-animation-duration: 20s ;
+}
+.Link:visited{
+    color:aquamarine
+}
+.Link:focus{
+    color:blue
+}
+.Link:hover{
+    color: red;
+}
+.Link:active{
+    color:green
+}
+.Link:link{
+    color:blueviolet
+}
+h2:hover{
+    /*transition: 3s;*/
+    transition: 2s;
+    color: brown;
+    margin-left:50px
+    
+}
+@-moz-keyframes chgt-couleur {
+    from{background-color:blue;} to {background-color: green;}
+    
+}

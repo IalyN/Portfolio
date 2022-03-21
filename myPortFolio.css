@@ -1,0 +1,105 @@
+*{
+  background: black;
+
+}
+.nav-link{
+  color:white !important;
+  font-size: 1rem;
+  font-style: oblique;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+color: white !important
+}
+
+header{
+  background: url("https://img.freepik.com/photos-gratuite/gros-plan-lunettes-ordinateur-portable-dans-noir_169016-14887.jpg?t=st=1647843228~exp=1647843828~hmac=fc49cef6f6f6f366838c6dccb2d550bbd7ebdf5382dec19e8b2e7c965df95d49&w=1480");
+  height: 19cm;
+  padding-bottom: 2ch;
+
+}
+center{
+  background-color: transparent;
+}
+header h1{
+  text-shadow: 2px;
+  background-color: transparent;
+  margin-top: 14% !important;
+  font-size: 4rem;
+  font-style: italic;
+  text-shadow: 1px 1px grey;
+}
+header p{
+  color: wheat;
+  background-color: transparent;
+  font-size: 2rem;
+  font-style: italic;
+  text-shadow: 1px 1px grey;
+}
+section{
+  margin-top: 0.1ch;
+  background-color: black;
+ 
+}
+#propos img{
+  width: 70%;
+  height: 15rem;
+}
+#propos h3{
+  color:white !important;
+  text-shadow: 1px 1px grey;
+ 
+}
+li{
+  list-style-type: circle;
+}
+#competence h3{
+  text-shadow: 1px 1px grey;
+}
+
+#projet{
+  display: flex;
+  justify-content: space-evenly;
+    color:white;
+}
+#projet h3{
+  text-shadow: 1px 1px grey;
+}
+.card1{
+border-style: solid;
+border-width: 0.001ch;
+border-color: lightgray;
+height: fit-content;
+
+}
+.card2{
+  border-style: solid;
+border-width: 0.001ch;
+border-color: lightgray;
+
+}
+
+
+.card-img-top{
+  height: 200px;
+  background-color: white;
+}
+
+i{
+  color: white;
+}
+section .sociaux{
+ 
+  margin: 0 auto;
+  width: 200px;
+  display: flex;
+}
+
+section .sociaux li{
+  margin: 20px;
+  list-style-type: none;
+}
+
+horaire{
+  color:#fff
+}
